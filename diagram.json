@@ -31,7 +31,7 @@
       "left": 220.8,
       "attrs": { "value": "330" }
     },
-    { "type": "wokwi-led", "id": "led1", "top": 198, "left": 167, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led1", "top": 198, "left": 167, "attrs": { "color": "green" } },
     {
       "type": "wokwi-led",
       "id": "led2",
@@ -39,13 +39,7 @@
       "left": 167,
       "attrs": { "color": "yellow" }
     },
-    {
-      "type": "wokwi-led",
-      "id": "led3",
-      "top": 121.2,
-      "left": 167,
-      "attrs": { "color": "green" }
-    }
+    { "type": "wokwi-led", "id": "led3", "top": 121.2, "left": 167, "attrs": { "color": "red" } }
   ],
   "connections": [
     [ "pico:GP0", "$serialMonitor:RX", "", [] ],
