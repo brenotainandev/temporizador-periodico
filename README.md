@@ -2,6 +2,10 @@
 
 Este projeto implementa um **semáforo automatizado** utilizando a placa **Raspberry Pi Pico W** e a biblioteca **Pico SDK**. O sistema controla três LEDs que simulam um semáforo real, alternando entre os estados **vermelho**, **amarelo** e **verde** a cada **3 segundos**.
 
+## 🎬 Demonstração do Funcionamento
+
+![Demonstração do Semáforo](gif/semaforo.gif)
+
 ---
 
 ## 🛠 **Requisitos do Projeto**
